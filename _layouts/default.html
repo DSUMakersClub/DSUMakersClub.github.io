@@ -15,14 +15,19 @@
     <meta property="og:url" content="https://github.com/DSUMakersClub/DSUMakersClub.github.io">
     <meta property="og:image" content="images/clubLogo.webp">
     
+    <!-- Jekyll Tags for RSS Feed and SEO -->
+    {% feed_meta %}
+    {% seo %}
+
     <!-- Links to our syle sheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">                                                           
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">                                                           
                                                            
   </head>
                                                             
   <body>
-
+    {% include navigation.html %}
       {{ content }}
 
     </body>
