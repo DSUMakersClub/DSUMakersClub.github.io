@@ -1,6 +1,6 @@
 ---
 short_name: Kyle
 name: Kyle Maddox
-position: President
+Position: Maker President
 ---
-Kyle Is a DIY dedicated dude who loves to nerd out and share knowledge!
+Kyle Is a DIY dedicated dude who loves to nerd out, sharing knowledge.
